@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+ * Author: John Kang
+ */
+
+.rowflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rowflex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+.site-title {
+    background-color: mediumpurple;
+    padding: 2%;
+    font-style: bold;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 300%;
+}
+
+.site-title a {
+    color: white;
+}
+
+.site-title a:hover {
+    background-color: darkcyan;
+}
+
+#nav {
+    min-width: 60%;
+    font-size: 120%;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.site-nav-title {
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 575.78px) {
+    body {
+        background-color: rosybrown;
+    }
+    #logo {
+        max-width: 100%;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+    }
+    
+
+}
+
+@media only screen and (min-width: 576px) {
+    body {
+        background-color: navajowhite;
+    }
+    
+    #logo {
+        max-width: 100%;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    } 
+    #logo {
+        max-width: 100%;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+    }
+    
+
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: white;
+    }
+    
+    #logo {
+        max-width: 100%;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+    }
+    
+
+    
+}
+

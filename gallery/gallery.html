@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- always put your name in your work -->
+    <meta name="author" content="John Kang">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- support for this page -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="dynamic.js" async></script>
+    <title>Dynamic Image Gallery</title>
+</head>
+
+<body>
+    <h1> Image Gallery</h1>
+    <hr>
+    <div id='buttoncontainer'>
+        <input class='button' type='button' id='slide' value='Slideshow' />
+        <input class='button' type='button' id='exit' value='Exit' />
+        
+    </div>
+        <p> Click an image to see an enlarged version with a caption. </p>
+    <div class="checkbox">
+    </div>    
+    <div class="container flexbox">
+        <button class="slidebutton" type="button" id="mdiv">&#10094;</button>
+        <button class="slidebutton" type="button" id="pdiv">&#10095;</button>
+        <div class="row"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div id="myModal" class="modal">
+        <img class="modal-content" src="" id="pic" alt="modal-pic">
+            <span class="close">&times;</span>
+        <div id="caption"></div>
+    </div>
+</body>
+</html>

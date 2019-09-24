@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- always put your name in your work -->
+    <meta name="author" content="John Kang">
+    <!-- stop the web browser from ever caching this page or its images -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- libraries neded for this page -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+<!--    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuefire/1.4.5/vuefire.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+    
+    <!-- support for this page -->
+    <link rel="stylesheet" href="css/login.css">
+    <script src="login.js" async></script>
+    <title>Work with Trello</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to Trello!</h1>
+    </header>
+    
+    <form name="login" class="info">
+        <div class="typeinfo">
+            Name <input type="text" class="blank" id="crtname" name="name" /><br>
+            Email <input type="text" class="blank" id="crtemail" name="email" /><br>
+<!--            <button onclick="myFunction()" id="d">Try it</button>-->
+            
+            <input type="button" class="btn" id="createAccount" value="Create"> 
+        </div>
+    </form>
+    
+</body>
+</html>

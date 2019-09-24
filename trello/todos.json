@@ -1,0 +1,15 @@
+{
+	"todos": [{
+			"title": "Finish CS290 HW By Duedate",
+			"completed": false
+		},
+		{
+			"title": "Finish CS290 HW By a Day after Duedate",
+			"completed": false
+		},
+		{
+			"title": "Finish CS290 HW By a week after Duedate",
+			"completed": false
+		}
+	]
+}

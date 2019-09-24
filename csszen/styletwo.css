@@ -1,0 +1,195 @@
+/*
+ * @author John Kang
+ */
+
+/*
+ * Image Source of pin.png: http://www.stickpng.com/img/icons-logos-emojis/pins/flat-design-map-pin
+ * Image Source of duke_logo.png: Duke University Trinity College of Arts and Sciences Asset Page(Original Source), https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg(Indirect Source)
+ * Image Source of html_css.png: http://trickgs.com/blog/html-imagenes/
+ */
+
+html {
+	margin: 0;
+	padding: 0;
+    background-color: lightpink;
+	}
+
+body { 
+	font-size: 100%;
+    max-width: 1280px;
+    font-family: Chalkboard, "Comic Sans MS", sans-serif;
+	line-height: 2;
+	margin: 6%;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+    }
+
+.summary {
+    padding: 20px 0px 0px 25px;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+
+.participation h3, .requirements h3, .explanation h3, .benefits h3 {
+    overflow: hidden;
+    background-color: peru;
+    color: #f2f2f2;
+    text-align: center;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;   
+}
+
+.preamble p {
+    padding: 0 5%;
+}
+
+.preamble h3 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 150%;
+    border : dotted 7px brown;
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+#zen-supporting {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#zen-supporting #zen-explanation {
+    background-image: url(pin.png);
+    background-size: 24px 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+    
+    text-align: center;
+    background-color: #ffff7c;
+    width: 42%;
+    padding: 1%;
+    margin: 15px 3%;
+    border : 2px solid gray; 
+}
+
+#zen-supporting #zen-participation {
+    background-image: url(pin.png);
+    background-size: 24px 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+    
+    text-align: center;
+    background-color: #ffff7c;
+    width: 42%;
+    padding: 1%;
+    margin: 15px 2%;
+    border : 2px solid gray; 
+}
+
+#zen-supporting #zen-benefits {
+    background-image: url(pin.png);
+    background-size: 24px 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+    
+    text-align: center;
+    background-color: #ffff7c;
+    width: 18%;
+    padding: 1%;
+    margin: 15px 3%;
+    border : 2px solid gray; 
+}
+
+#zen-supporting #zen-requirements {
+    background-image: url(pin.png);
+    background-size: 24px 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+    
+    text-align: center;
+    background-color: #ffff7c;
+    width: 66%;
+    padding: 1%;
+    margin: 15px 2%;
+    border : 2px solid gray; 
+}
+
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+
+header {
+    max-width: 1280px; 
+    background-color: darkorange;
+    background-image: url(duke_logo.png);
+    background-size: 160px 70px;
+    background-repeat: no-repeat;
+    background-position: 98% 20%;
+    border-radius: 20px;
+    display: flex;
+}
+
+header h1 {
+    width: 76%;
+    font-size: 250%;
+    margin-top: 0%;
+    word-spacing: 80px;
+    text-align: center;
+    background-color: palegoldenrod;
+    border-radius: 4px;
+}
+
+header h2 {
+    padding-top: 5%;
+    padding-left: 2.5%;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 120%;
+}
+
+footer {
+    border-top: 10px double gray;
+    border-bottom: 10px double gray;
+    width: 100%;
+    text-align: right;
+    padding-right: 4%;
+}
+
+.wrapper {
+    display: flex;
+    padding: 1%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background-image: url(html_css.png);
+    background-repeat: no-repeat;
+    background-size: 250px 150px;
+    background-position: 95% 50%;
+}
+
+
+.sidebar h3.select { 
+	margin: 10px 0 10px 0; 
+    width: 70%;
+    margin: 30px;
+    overflow: hidden;
+    background-color: #dcf1f2; 
+	}
+
+.sidebar h3.archives { 
+	margin: 10px 0 10px 0; 
+    width: 70%;
+    margin: 30px;
+	overflow: hidden;
+    background-color: #dcf1f2; 
+    }
+
+.sidebar h3.resources { 
+	margin: 10px 0 10px 0; 
+    width: 70%;
+    margin: 30px;
+	overflow: hidden;
+    background-color: #dcf1f2; 
+	}

@@ -1,0 +1,65 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: #f5f5f5;
+    color: #4d4d4d;
+    min-width: 230px;
+    max-width: 550px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+h1 {
+    max-width: 120%;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 80%;
+    
+    color: rgba(175, 47, 47, 0.15);
+    text-rendering: optimizeLegibility;
+}
+
+.info {
+    text-align: center;
+    padding: 0 30px;
+    margin: auto auto;
+    font-size: 20px;
+}
+
+.typeinfo {
+    width: 150px;
+    padding: 0 30px;
+    margin: 10px auto;
+}
+
+.blank {
+    width: 150px;
+    margin: 0 0 10px 0;
+}
+
+.btn {
+    font-family: 'Helvetica Neue', sans-serif;  
+    font-weight: 300;
+    background: #e3ecfc;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px 15px;
+    margin: 10px 0;
+    padding: 3px 30px;
+}
+
+#login:hover {
+    cursor: pointer;
+}
+
+#create:hover {
+    cursor: pointer;
+}
